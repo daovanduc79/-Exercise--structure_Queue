@@ -3,8 +3,8 @@
 
 class Node
 {
-    protected $value;
-    protected $next;
+    public $value;
+    public $next;
 
     public function __construct($value)
     {
